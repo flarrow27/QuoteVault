@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "QuoteVault",
+    "slug": "QuoteVault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourname.quotevault",
+      "widgets": [
+        {
+          "name": "QuoteWidget",
+          "label": "Daily Motivation",
+          "minWidth": "320dp",
+          "minHeight": "120dp",
+          "description": "Shows your Quote of the Day",
+          "previewImage": "./assets/widget-preview.png",
+          "resizeMode": "horizontal|vertical"
+        }
+      ],
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow QuoteVault to access your photos to save quotes.",
+          "savePhotosPermission": "Allow QuoteVault to save quotes to your gallery.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a1314728-88d9-4943-abce-abc2102bd29e"
+      }
+    }
+  }
+}
