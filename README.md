@@ -22,6 +22,8 @@ The Vision (UI via Stitch)
 
 ![Stitch UI Design](./quoteVault/assets/Screenshots/stitch.jpeg)
 
+Demo video: https://www.loom.com/share/81f79b1bd2254b30b1c208a6791c16ec
+
 UI Screenshots that were not in the demo video:
 
 ![Signup](./quoteVault/assets/Screenshots/signup.jpeg)
