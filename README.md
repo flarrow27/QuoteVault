@@ -21,7 +21,7 @@ This project was built using a cutting-edge **AI-Assisted Development** workflow
 The Vision (UI via Stitch)
 *Initial design concepts generated to establish the "Gold & Dark" premium aesthetic.*
 
-![Stitch UI Design](./assets/screenshots/stitch_concept.png)
+![Stitch UI Design](.quoteVault/assets/Screenshots/stitch.png)
 *(Place your Stitch screenshot here)*
 
 ---
